@@ -1,7 +1,7 @@
 package = "LuaXML"
 version = "1.7.5-1"
 source = {
-   url = "git://github.com/LuaDist/luaxml",
+   url = "git://github.com/erikarn/lua-luaxml",
    dir = '.'
 }
 description = {
@@ -16,12 +16,12 @@ numerical keys, attributes and tags use string keys. This
 representation makes sure that the structure of XML data is exactly
 preserved in a read/write cycle.
    ]],
-   homepage = "http://viremo.eludi.net/LuaXML/",
+   homepage = "http://github.com/erikarn/lua-luaxml/",
    license = "MIT/X11",
-   maintainer = "djerius@cfa.harvard.edu"
+   maintainer = "adrian@freebsd.org"
 }
 dependencies = {
-   "lua >= 5.1"
+   "lua >= 5.1, <= 5.3"
 }
 build = {
    type = "builtin",
